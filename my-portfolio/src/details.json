@@ -1,0 +1,78 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "Bootstrap Portfolio",
+        "description": "Building my portfolio layout using the Bootstrap CSS Framework.",
+        "image": "images/Bootstrap-Portfolio.png",
+    "github_link": "https://github.com/Aysegulozen/Bootstrap-Portfolio1",
+      "demo_link": "https://aysegulozen.github.io/Bootstrap-Portfolio1/"
+      },
+      {
+        "id": 2,
+        "name": "Code Quiz",
+        "description": "Take a timed quiz on JavaScript fundamentals that stores high scores.",
+        "image": "https://example.com/images/code-quiz.jpg",
+        "github_link": "https://github.com/example/bootstrap-portfolio",
+      "demo_link": "https://example.com/bootstrap-portfolio-demo"
+      },
+      {
+        "id": 3,
+        "name": "Console Finances",
+        "description": "Creating code to analyze a company's financial records.",
+        "image": "https://github.com/Aysegulozen/Console-Finances/blob/aysegulozen.github.io/console-finances/image/console-js.png",
+        "github_link": "https://github.com/example/bootstrap-portfolio",
+      "demo_link": "https://example.com/bootstrap-portfolio-demo"
+      },
+      {
+        "id": 4,
+        "name": "Password Generator",
+        "description": "Creating a random password generator.",
+        "image": "https://example.com/images/password-generator.jpg",
+        "github_link": "https://github.com/example/bootstrap-portfolio",
+      "demo_link": "https://example.com/bootstrap-portfolio-demo"
+
+      },
+      {
+        "id": 5,
+        "name": "Weather Dashboard",
+        "description": "Creating a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.",
+        "image": "https://example.com/images/weather-dashboard.jpg",
+        "github_link": "https://github.com/example/bootstrap-portfolio",
+      "demo_link": "https://example.com/bootstrap-portfolio-demo"
+      },
+      {
+        "id": 6,
+        "name": "Work Day Scheduler",
+        "description": "Creating a simple calendar application that allows a user to save events for each hour of the day.",
+        "image": "https://example.com/images/work-day-scheduler.jpg",
+        "github_link": "https://github.com/example/bootstrap-portfolio",
+      "demo_link": "https://example.com/bootstrap-portfolio-demo"
+      },
+      {
+        "id": 7,
+        "name": "Team Profile Generator",
+        "description": "Creating a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",
+        "image": "https://example.com/images/team-profile-generator.jpg",
+        "github_link": "https://github.com/example/bootstrap-portfolio",
+      "demo_link": "https://example.com/bootstrap-portfolio-demo"
+        },
+        {
+        "id": 8,
+        "name": "Professional README Generator",
+
+        "description": "Creating a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.",
+        "image": "https://example.com/images/professional-readme-generator.jpg",
+        "github_link": "https://github.com/example/bootstrap-portfolio",
+      "demo_link": "https://example.com/bootstrap-portfolio-demo"
+        },
+        {
+        "id": 9,
+        "name": "ScreenTraker",
+        "description": "Creating a web application that allows users to track their screen time and set goals for themselves.",
+        "image": "https://example.com/images/screen-tracker.jpg",
+        "github_link": "https://github.com/example/bootstrap-portfolio",
+      "demo_link": "https://example.com/bootstrap-portfolio-demo"
+        }
+    ]
+    }
