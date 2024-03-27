@@ -16,7 +16,7 @@ function HeroSection() {
                             className="w-32 h-32 rounded-full border-4 border-white"
                         />
                     </div>
-                    <h1 className="text-3xl font-bold text-gray-900 text-center mb-4"style={{margin: '20px'}}>Aysegul Ozen</h1>
+                    <h1 className="text-3xl font-bold text-gray-900 text-center mb-4"style={{margin: '20px'}}>Ayşegül Özen</h1>
                     <div className="w-24 border-b border-gray-400 mx-auto mb-6"></div>
                     <h2 className="text-2xl text-gray-900 text-center mb-4"style={{margin: '20px'}}>Web Developer</h2>
                     <br />
@@ -40,7 +40,11 @@ function HeroSection() {
             </div>
             <div className="w-2/3 p-8">
                 <div className="max-w-lg">
-                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Welcome to My Portfolio</h2>
+                    <h2 className="text-7xl font-bold text-gray-900 mb-4">Welcome to My Portfolio</h2>
+                    <div className="flex justify-between items-center mb-4">
+                        <a href="#" className="border border-black text-black px-4 py-2 rounded-lg text-lg hover:bg-blue-600">GitHub</a>
+                        <a href="#" className="border border-black text-black px-4 py-2 rounded-lg text-lg hover:bg-green-600">Download CV</a>
+                    </div>
                     <p className="text-lg text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget efficitur felis. Duis vel posuere elit. Vestibulum auctor, lacus et lobortis pharetra, metus odio tempor felis, vitae tristique nulla mauris in dolor.</p>
                 </div>
             </div>

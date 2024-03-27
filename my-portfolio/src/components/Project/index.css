@@ -1,0 +1,9 @@
+.activeSlide img {
+    transform: scale(1.0); /* Merkezdeki slaytı daha da büyüt */
+    transition: transform 0.5s ease-in-out;
+}
+
+.inactiveSlide img {
+    transform: scale(0.5); /* Yan slaytları daha da küçült */
+    transition: transform 0.5s ease-in-out;
+} 

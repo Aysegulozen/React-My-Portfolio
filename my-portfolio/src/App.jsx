@@ -1,17 +1,31 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import About from './components/About';
+import Project from './components/Project';
+
 
 import '../node_modules/flowbite/dist/flowbite.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 
 const App = () => {
   return (
+    <Router>
     <div>
       <Navbar />
-      <Hero />
-
-      {/* {/} */}
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/projects" element={<Project />} />
+        {/* <Route path="/comments" element={<Comment />} />
+        <Route path="/signup" element={<SignUp />} /> */}
+      </Routes>
+      {/* <Footer /> */}
     </div>
+  </Router>
   );
 };
 
