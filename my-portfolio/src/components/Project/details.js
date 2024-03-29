@@ -1,4 +1,4 @@
-// data.js
+
 import BootstrapP from "../../assets/Bootstrap-portfolio.png";
 import CodeQuiz from "../../assets/Code-quiz.gif";
 import ConsoleFinances from "../../assets/Console-Finances.png";
@@ -7,7 +7,8 @@ import WeatherDashboard from "../../assets/Weather-Dashboard.png";
 import WorkDayScheduler from "../../assets/Work-day-scheduler.gif";
 import TeamProfileGenerator from "../../assets/Team-Profile-Generator.png";
 import ProfessionalREADMEGenerator from "../../assets/Professional-README-Generator.gif";
-import ScreenTraker from "../../assets/Screen-Traker2.png";
+import ScreenTraker from "../../assets/Screen-Traker.png";
+import ScheduleOrganizer from "../../assets/Schedule-Organizer.png";
 
 
 
@@ -28,7 +29,7 @@ const projects = [
         "description": "Take a timed quiz on JavaScript fundamentals that stores high scores.",
         "image": CodeQuiz,
         "github_link": "https://github.com/Aysegulozen/Code-quiz",
-      "demo_link": "https://aysegulozen.github.io/Code-quiz/index.html"
+      "demo_link": "https://aysegulozen.github.io/Code-quiz/"
       },
       {
         "id": 3,
@@ -87,6 +88,14 @@ const projects = [
         "image": ScreenTraker,
         "github_link": "https://github.com/pradeepdotco/ScreenTracker",
       "demo_link": "https://pradeepdotco.github.io/ScreenTracker/"
+        },
+        {
+          "id": 10,
+          "name": "schedule-organizer",
+          "description": "Creating a web application that allows users to organize their schedule.",
+          "image": ScheduleOrganizer,
+          "github_link": "https://github.com/jaiminiprajapati/schedule-organizer",
+          "demo_link": "https://flowify.netlify.app/"
         }
     ]
 export default projects;

@@ -13,12 +13,14 @@ function HeroSection() {
                         <img
                             src={Image}
                             alt="Aysegul Ozen"
-                            className="w-32 h-32 rounded-full border-4 border-white"
+                            className="w-48 h-52 rounded-full border-4 border-white"
                         />
                     </div>
-                    <h1 className="text-4xl font-bold text-gray-900 text-center font-protest mb-4" style={{ margin: '20px' }}>Ayşegül Özen</h1>
+                 
+                    <h1 className="text-4xl font-bold text-gray-900 text-center kode-mono mb-4" style={{ margin: '20px' }}>Ayşegül Özen</h1>
+                    <br />
                     <div className="w-24 border-b border-gray-400 mx-auto mb-6"></div>
-                    <h2 className="text-2xl text-gray-900 text-center mb-4"style={{margin: '20px'}}>Web Developer</h2>
+                    <h2 className="text-2xl text-gray-900 text-center kode-mono mb-4"style={{margin: '20px'}}>Web Developer</h2>
                     <br />
                     <br/>
                 </div>

@@ -9,12 +9,10 @@ const About = () => {
 
       <div className="container mx-auto flex px-5 py-24 items-center justify-center">
         <div className="flex flex-row items-center justify-center w-full">
-          {/* Image */}
           <div className="flex justify-center items-center w-1/2">
             <img src={AboutImage} alt="Profile" style={{ maxWidth: '500px' }} />
           </div>
-          {/* Text Content */}
-          <div className="container mx-auto px-4">
+          <div className="container kode-mono mx-auto px-4">
             <div className="bg-white rounded-lg p-8 shadow-lg mt-8">
               <div className="flex flex-col justify-center items-start w-full pl-12">
                 <h2 className="text-xl font-bold text-green-800 mb-4">Who am I?</h2>

@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.kode-mono {
+    font-family: 'Kode Mono', monospace;
+}
+.font-protest {
+    font-family: 'Protest Revolution', sans-serif;
+  }
