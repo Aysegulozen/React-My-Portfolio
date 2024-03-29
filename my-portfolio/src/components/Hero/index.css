@@ -1,3 +1,9 @@
 .hero-section {
     background: linear-gradient(to right, #014737 10%,#014737 28%, white 20%, white 40% );
   }
+  .font-protest {
+    font-family: 'Protest Revolution', sans-serif;
+  }
+  .kode-mono {
+    font-family: 'Kode Mono', monospace;
+}

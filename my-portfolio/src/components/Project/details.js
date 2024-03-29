@@ -7,7 +7,7 @@ import WeatherDashboard from "../../assets/Weather-Dashboard.png";
 import WorkDayScheduler from "../../assets/Work-day-scheduler.gif";
 import TeamProfileGenerator from "../../assets/Team-Profile-Generator.png";
 import ProfessionalREADMEGenerator from "../../assets/Professional-README-Generator.gif";
-import ScreenTraker from "../../assets/Screen-Traker.png";
+import ScreenTraker from "../../assets/Screen-Traker2.png";
 
 
 

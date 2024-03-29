@@ -16,7 +16,7 @@ function HeroSection() {
                             className="w-32 h-32 rounded-full border-4 border-white"
                         />
                     </div>
-                    <h1 className="text-3xl font-bold text-gray-900 text-center mb-4"style={{margin: '20px'}}>Ayşegül Özen</h1>
+                    <h1 className="text-4xl font-bold text-gray-900 text-center font-protest mb-4" style={{ margin: '20px' }}>Ayşegül Özen</h1>
                     <div className="w-24 border-b border-gray-400 mx-auto mb-6"></div>
                     <h2 className="text-2xl text-gray-900 text-center mb-4"style={{margin: '20px'}}>Web Developer</h2>
                     <br />
@@ -25,13 +25,13 @@ function HeroSection() {
                 <div className="absolute bottom-0 left-0 right-0 p-4">
                     <div className="bg-white p-1  shadow-lg">
                         <div className="flex justify-center space-x-4">
-                            <a href="#" className="text-gray-700 hover:text-gray-900">
+                            <a href="https://www.linkedin.com/in/aysegul-ozen-aa33912ab/" className="text-gray-700 hover:text-gray-900">
                                 <FaLinkedin size={24} />
                             </a>
-                            <a href="#" className="text-gray-700 hover:text-gray-900">
+                            <a href="https://github.com/Aysegulozen" className="text-gray-700 hover:text-gray-900">
                                 <FaGithub size={24} />
                             </a>
-                            <a href="#" className="text-gray-700 hover:text-gray-900">
+                            <a href="https://twitter.com/Moontesko" className="text-gray-700 hover:text-gray-900">
                                 <FaTwitter size={24} />
                             </a>
                         </div>
@@ -40,12 +40,11 @@ function HeroSection() {
             </div>
             <div className="w-2/3 p-8">
                 <div className="max-w-lg">
-                    <h2 className="text-7xl font-bold text-gray-900 mb-4">Welcome to My Portfolio</h2>
+                    <h2 className="text-8xl text-gray-900 kode-mono mb-4">Hi there!</h2>
                     <div className="flex justify-between items-center mb-4">
-                        <a href="#" className="border border-black text-black px-4 py-2 rounded-lg text-lg hover:bg-blue-600">GitHub</a>
-                        <a href="#" className="border border-black text-black px-4 py-2 rounded-lg text-lg hover:bg-green-600">Download CV</a>
+                        <a href="https://drive.google.com/uc?export=download&id=1UHlY7DB1I1_FRebuFD9yfTn7eo8OX4yZ" download="CV_Aysegul_Ozen.pdf" className="border border-black text-black px-4 py-2 rounded-lg text-lg hover:bg-green-600">Download CV</a>
                     </div>
-                    <p className="text-lg text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget efficitur felis. Duis vel posuere elit. Vestibulum auctor, lacus et lobortis pharetra, metus odio tempor felis, vitae tristique nulla mauris in dolor.</p>
+                    <p className="text-lg kode-mono text-gray-700">I'm a budding software developer with a knack for innovation and a passion for crafting transformative software solutions. Explore my portfolio for a deeper dive into my projects and experiences. Feel free to reach out—I'd love to connect and discuss potential collaborations!</p>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Project from './components/Project';
-
+import Contact from './components/Contact';
 
 import '../node_modules/flowbite/dist/flowbite.css';
 import "slick-carousel/slick/slick.css"; 
@@ -20,8 +20,8 @@ const App = () => {
         <Route path="/" element={<Hero />} />
         <Route path="/About" element={<About />} />
         <Route path="/projects" element={<Project />} />
-        {/* <Route path="/comments" element={<Comment />} />
-        <Route path="/signup" element={<SignUp />} /> */}
+        <Route path="/contact" element={<Contact />} />
+
       </Routes>
       {/* <Footer /> */}
     </div>

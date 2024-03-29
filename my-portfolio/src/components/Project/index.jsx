@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
+import { Card } from 'flowbite-react';
+
 import projects from '../Project/details.js';
-import 'slick-carousel/slick/slick.css'; 
-import 'slick-carousel/slick/slick-theme.css';
+
 import '../Project/index.css';
 
 const ProjectSlider = () => {
@@ -17,6 +18,7 @@ const ProjectSlider = () => {
         centerMode: true,
         centerPadding: '0px',
         focusOnSelect: true,
+        arrows: true,
         beforeChange: (current, next) => setActiveSlide(next),
         responsive: [
             {
@@ -31,25 +33,30 @@ const ProjectSlider = () => {
     };
   
     return (
-         <div className="container  mx-auto h-screen bg-green-800">
-            <Slider {...settings}>
-                {projects.map((project, index) => (
-                    <div key={project.id} className={`p-4 ${index === activeSlide ? 'activeSlide' : 'inactiveSlide'}`}>
-                        <div className="group relative">
-                        <div className="w-full h-80 overflow-hidden rounded-lg">
-        {/* object-cover sınıfı resmin oranını koruyarak kutuya sığmasını sağlar */}
-        <img src={project.image} alt={project.name} className="w-full h-full object-cover" />
-      </div>
-      <div className="absolute inset-0 flex flex-col justify-center items-center bg-green-500 bg-opacity-0 group-hover:bg-opacity-75 transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-        <h3 className="text-white text-xl font-bold">{project.name}</h3>
-        <p className="text-white text-sm">{project.description}</p>
-        <a href={project.github_link} target="_blank" rel="noopener noreferrer" className="mt-4 bg-white text-green-500 py-2 px-4 rounded">View on GitHub</a>
-      </div>
-    </div>
-  </div>
-))}
-            </Slider>
-         </div>
+        <div className="flex justify-center items-center h-screen bg-green-800">
+            <div className="w-full max-w-9xl">
+                <Slider {...settings}>
+                    {projects.map((project, index) => (
+                        <div key={project.id} className={`p-4 ${index === activeSlide ? 'activeSlide' : 'inactiveSlide'}`}>
+                            <div className="card group relative"> 
+                                <Card>
+                                    <img src={project.image} alt={project.name} className="w-full h-48 object-cover" />
+                                    <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                        {project.name}
+                                    </h5>
+                                    <p className="font-normal text-gray-700 dark:text-gray-400">
+                                        {project.description}
+                                    </p>
+                                    <a href={project.github_link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 dark:focus:ring-green-800 transition-all">
+                                        View on GitHub
+                                    </a>
+                                </Card>
+                            </div>
+                        </div>
+                    ))}
+                </Slider>
+            </div>
+        </div>
     );
 };
   

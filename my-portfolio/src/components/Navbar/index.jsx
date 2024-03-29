@@ -22,7 +22,7 @@ const Navbar = () => {
               <Link to="/Projects" className="block py-2 px-3 text-second-color rounded hover:bg-gray-100 dark:hover:bg-gray-700">Projects</Link>
             </li>
             <li>
-              <Link to="/signup" className="block py-2 px-3 text-second-color rounded hover:bg-gray-100 dark:hover:bg-gray-700">Sign Up</Link>
+              <Link to="/Contact" className="block py-2 px-3 text-second-color rounded hover:bg-gray-100 dark:hover:bg-gray-700">Contact</Link>
             </li>
           </ul>
         </div>
