@@ -9,18 +9,18 @@ const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+  
     emailjs.sendForm('service_0ac3htc', 'template_wzerrf9', form.current, 'x-7lFQqra4EeukDpo')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        alert('Your message has been received.');
-        window.location.reload();
+        alert('Your message has been successfully sent!');
+        form.current.reset();
       })
       .catch((error) => {
-        console.error('FAILED...', error);
-        alert('Failed to send your message. Please try again later.');
+        console.error('EmailJS Error:', error);
+        alert('Sending message failed due to an error. Please try again.');
       });
   };
-
   return (
     <div className="flex kode-mono flex-col items-center justify-center h-screen bg-green-800">
       <div className="text-center mb-8">
