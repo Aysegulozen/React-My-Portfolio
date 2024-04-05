@@ -5,4 +5,11 @@
 
 [build]
   command = "npm run build"
+<<<<<<< HEAD
   publish = "dist"
+=======
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "16"
+>>>>>>> origin/main
