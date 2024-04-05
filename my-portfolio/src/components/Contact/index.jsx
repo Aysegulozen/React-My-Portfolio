@@ -10,7 +10,12 @@ const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
   
-    emailjs.sendForm('service_0ac3htc', 'template_wzerrf9', form.current, 'x-7lFQqra4EeukDpo')
+    emailjs.sendForm(
+      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      form.current,
+      import.meta.env.VITE_APP_EMAILJS_USER_ID
+    )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         alert('Your message has been successfully sent!');
