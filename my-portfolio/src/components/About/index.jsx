@@ -29,7 +29,7 @@ const About = () => {
                   For a detailed look at my experience and the skills I bring to the table, please feel free to download and review my CV.
                 </p>
                 <div className="w-full border-b border-green-800 mx-auto mb-6"></div>
-                <a href="https://drive.google.com/uc?export=download&id=1UHlY7DB1I1_FRebuFD9yfTn7eo8OX4yZ" download="CV_Aysegul_Ozen.pdf">
+                <a href="https://drive.google.com/file/d/1ZirGV5AZU6QRQghphrAan2M2vlLtPW9J/view?usp=sharing" download="CV_Aysegul_Ozen.pdf">
                   <button className="bg-green-800 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
                     Download My CV
                   </button>
