@@ -44,7 +44,7 @@ function HeroSection() {
                 <div className="max-w-lg">
                     <h2 className="text-8xl text-gray-900 kode-mono mb-4">Hi there!</h2>
                     <div className="flex justify-between items-center mb-4">
-                        <a href="https://drive.google.com/uc?export=download&id=1UHlY7DB1I1_FRebuFD9yfTn7eo8OX4yZ" download="CV_Aysegul_Ozen.pdf" className="border border-black text-black px-4 py-2 rounded-lg text-lg hover:bg-green-600">Download CV</a>
+                        <a href="https://drive.google.com/file/d/1ZirGV5AZU6QRQghphrAan2M2vlLtPW9J/view?usp=sharing" download="CV_Aysegul_Ozen.pdf" className="border border-black text-black px-4 py-2 rounded-lg text-lg hover:bg-green-600">Download CV</a>
                     </div>
                     <p className="text-lg kode-mono text-gray-700">I'm a budding software developer with a knack for innovation and a passion for crafting transformative software solutions. Explore my portfolio for a deeper dive into my projects and experiences. Feel free to reach out—I'd love to connect and discuss potential collaborations!</p>
                 </div>
